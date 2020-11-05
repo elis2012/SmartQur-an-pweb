@@ -1,5 +1,6 @@
 body{
     background-image: url(gambar/Feature.png);
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -15,10 +16,33 @@ header{
 
 
 .Menghafal h2 a{
-    background-image: url(Gambar/menghafal.png);
     text-decoration: none;
-    margin-right: 20%;
-    padding-bottom: 300px;
+    margin-right: 30%;
+    margin-bottom: 50%;
+}
+
+.Menghafal p{
+    
+   margin-right: 30%;
 
 }
 
+.Menghafal img {
+    position: relative;
+    top: 30%;  
+    margin-right: 30%; 
+}
+.Murojaah h2 a{
+    text-decoration: none;
+    margin-right: 30%;
+    margin-bottom: 50%;
+}
+
+
+.Am h2 a{
+    text-decoration: none;
+    margin-right: 30%;
+    margin-bottom: 50%;
+
+
+}
