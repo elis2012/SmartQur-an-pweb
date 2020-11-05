@@ -1,0 +1,20 @@
+body {
+    background-image: url(gambar/cover.png);
+
+}
+.member {
+    font-family: monospace;
+    padding: 0px 0px 0px 0px;
+    color: rgb(83, 81, 83);
+}
+.data {
+    font-size: 15px;
+    padding-top: 0mm;
+}
+.akun {
+    
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+}
