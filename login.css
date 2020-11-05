@@ -11,10 +11,14 @@ body {
     font-size: 15px;
     padding-top: 0mm;
 }
+.password {
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+}
 .akun {
     
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    padding: 5px 20px;
+    
 }
