@@ -1,24 +1,48 @@
 body{
     background-image: url(gambar/Feature.png);
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+   
 }
-
-header{
+.header {
+    padding-top: 30px;
     text-align: center;
+    color: orange;
 }
 
-.header h1{
-    padding: 30px;
-}
+.gambar {
+    margin: 10px;
+    display: block;
+    float: left;
+    margin-left: 120px;
+    margin-top: 50px;
+    width: 180px;
+    
+   
+  }
+  
+h2 a{
+      text-decoration: none;
+      color: purple;
+  }
+ .gambar:hover {
+    background-color:plum;
+    padding: 10px;
+    
+    
+  }
+  
+.gambar img {
+    width: 100%;
+    height: auto;
+  }
 
 
+  
+.desk {
+    padding: 15px;
+    text-align: center;
+    color: purple;
+  }
 
-.Menghafal h2 a{
-    background-image: url(Gambar/menghafal.png);
-    text-decoration: none;
-    margin-right: 20%;
-    padding-bottom: 300px;
-
-}
 
