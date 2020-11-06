@@ -1,0 +1,20 @@
+body {
+    background-image: url(gambar/bck.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 17px;
+    padding-top: 0px;
+    border-width: 10px;
+}
+body button {
+    background-color: blue;
+    outline-color: blueviolet;
+    color: cornsilk;
+}
+h3 {
+    font-family: fantasy;
+}
+h4{
+    font-family: fantasy;
+    font-size: 15px;
+}
