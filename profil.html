@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="profil.css">
 </head>
 <body>
+    <p class="atas">email</p>
 
    <div class="login">
         <form>
             <label><h4>Pengaturan Akun</h4></label>
             <hr>
-            
+            <label for="image">Foto Profil</label>
+            <img class="foto" src="gambar/orang.jpg" width="90" alt="">
+            <input class="browse" type="file" id="up foto" >
+            <br><br>
             <label>Nama Lengkap</label>
             <input type="text" name="nama" class="formlogin" size="70" required>
             <label>Username</label>
@@ -21,11 +25,38 @@
             <input type="email" name="email" class="formlogin" size="70" required>
             <label>Jenis Kelamin</label><br><br>
             <input type="radio" name="Jenis Kelamin" >Laki - Laki
-                        <input type="radio" name="Jenis Kelamin">Perempuan </td>
-            
-            <input type="submit" value="Create Account" class="kliklogin">
+                        <input type="radio" name="Jenis Kelamin">Perempuan </td><br><br>
+            <label>Nomor Telepon</label>
+            <input type="number" name="nomor telepon" class="formlogin" size="70">
+            <label>Tanggal Lahir</label>
+            <input type="date" name="Tanggal Lahir" class="formlogin" required>
+            <label>Pekerjaan</label>
+            <select class="pekerjaan">
+                <option>Petani</option>
+                <option>Pelajar</option>
+                <option>Karyawan swasta</option>
+                <option>Ibu rumah tangga</option>
+                <option>Guru</option>
+                <option>Pegawai negeri sipil</option>
+                <option>Dokter</option>
+                <option>Polisi</option>
+                <option>TNI</option>
+            </select>
             <br><br>
-            <a class="already" href="member">Already a member? Sign in</a>
+            <label>Alamat</label>
+            <textarea class="alamat" name="textarea" cols="60" rows="4"></textarea>
+            <br><br>
+            <label><h5>Ubah Password</h5></label>
+            <hr>
+            <p class="ubahpassword">Isi form dibawah ini hanya bila anda ingin mengubah password!</p>
+            <label>Password Lama</label>
+            <input type="password" name="password lama" class="formlogin" size="70">
+            <label>Password Baru</label>
+            <input type="password" name="password baru" class="formlogin" size="70">
+            <label>Konfirmasi Password Baru</label>
+            <input type="password" name="konfirmasi password" class="formlogin" size="70">
+            <input type="submit" value="Simpan Perubahan" class="perubahan">
+            
         </form>
    </div>
 </body>

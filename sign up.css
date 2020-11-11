@@ -1,5 +1,7 @@
 body{
     background-image: url(gambar/cover.png);
+    width: 100%;
+    background-repeat: no-repeat;
 }
 h2{
     text-align: left;
@@ -9,6 +11,7 @@ h2{
    width: 200px;
     margin: 100px auto;
     padding: 50px 50px;
+    
 }
 label{
 
@@ -44,6 +47,6 @@ label{
 .already{
     font-family: monospace;
     color: rgb(89, 85, 85);
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
 }
