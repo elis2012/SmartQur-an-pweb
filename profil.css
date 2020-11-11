@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(243, 170, 243);
+    
 }
 h2{
     text-align: left;
@@ -7,11 +7,12 @@ h2{
 }
 hr{
     width: 1000px;
+    color: purple;
 }
 .login{
    width: 200px;
     margin: 100px auto;
-    padding: 50px 50px;
+    
 }
 label{
 
@@ -25,28 +26,59 @@ label{
 }
 .formlogin{
     box-sizing: border-box;
-    padding: 10px 10px;
+    padding: 5px 10px;
     size: 70px;
     margin-bottom: 20px;
     border-radius: 10px;
-    border: none;
-    background: rgb(240, 202, 132);
+    border-color: rgb(238, 87, 238);
+    border-style: ridge;
+    background: white;
 
 }
-
-.kliklogin{
-    background: darkorchid;
-    color: white;
+.alamat{
+    border-radius: 10px;
+    border-color: rgb(238, 87, 238);
+    border-style: ridge;
+}
+.pekerjaan{
+    border-radius: 5px;
+    border-color: rgb(238, 87, 238);
+    border-style: ridge;
+}
+.perubahan{
+    background: red;
+    color: black;
     width: 200px;
     border: none;
     border-radius: 10px;
-    padding: 10px;
-    font-size: 15px;   
+    padding: 7px;
+    font-size: 15px; 
+    border-style: ridge;  
+    border-color: rgb(238, 87, 238);
+    border-width: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.already{
-    font-family: monospace;
-    color: rgb(89, 85, 85);
-    font-size: 12px;
-    text-decoration: none;
+.ubahpassword{
+    background-color: rgb(248, 117, 117);
+    border-radius: 10px;
+    width: 500px;
+    padding: 7px;
+    border-color: rgb(238, 87, 238);
+    border-width: 2px;
+    border-style: ridge; 
+}
+.foto{
+    padding: 19px 19px 5px;
+    float: unset;
+}
+.browse{
+    font-size: 10px; 
+}
+.atas{
+    background-color: darkmagenta;
+    padding-block: 7px;
+    position: 20px;
+    text-align: right;
+    width: 1107px;
 }
