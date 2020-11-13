@@ -26,7 +26,7 @@ ul li a:hover{
     background-color: white;
     color: black;
 }
-.main{
+.navbar{
     max-width: 900px;
     margin: auto;
 }
@@ -79,7 +79,11 @@ ul li a:hover{
     font-size: 20px;
     left: 85%;
 }
-
+.login :hover{
+    background-color:white;
+    color: black;
+  
+}
 .tbl1{
     text-decoration: none;
     color: white;
@@ -94,6 +98,12 @@ ul li a:hover{
     top: 4%;
     font-size: 20px;
     left: 92%;
+}
+
+.sign :hover{
+    background-color: orange;
+    color: white;
+    border: orange;
 }
 
 .tbl2{
