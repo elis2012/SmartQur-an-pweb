@@ -1,0 +1,85 @@
+body{
+  
+  background-color: rgb(236, 223, 248);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+
+ul{
+  float: right;
+  margin-top: 20px;
+  
+}
+ul li{
+  margin-left: 25px;
+  left: 100px;
+  display: inline-block;
+}
+ul li a{
+  text display: None;
+  text-decoration: none;
+  color :gray;
+  padding : 5px 20px;
+  border : 1px solid gray;
+
+}
+
+ul li a:hover{
+  background-color:  rgb(153, 56, 245);
+  color: white;
+  border: rgb(238, 87, 238);
+}
+.navbar{
+  margin: auto;
+  border: rgb(202, 202, 202);
+}
+
+.gambar1{
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.header {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(105, 104, 104);
+}
+
+.gambar {
+    margin: 10px;
+    display: block;
+    float: left;
+    margin-left: 120px;
+    margin-top: 50px;
+    width: 180px;
+    
+   
+  }
+  
+h2 a{
+      text-decoration: none;
+      color: rgb(105, 104, 104);
+  }
+ .gambar:hover {
+    background-color:;
+    padding: 5px;
+    
+    
+  }
+  
+.gambar img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+.desk {
+    padding-top: 2px;
+    text-align: center;
+    color: purple;
+  }
+
+
