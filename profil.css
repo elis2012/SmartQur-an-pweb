@@ -1,10 +1,11 @@
+
 body{
     background-image: url(gambar/bck.png);
 }
 ul{
     float: right;
     margin-top: 15px;
-    
+   
 }
 ul li{
     margin-left: 25px;
@@ -14,11 +15,11 @@ ul li{
 ul li a{
     text display: None;
     text-decoration: none;
+<<<<<<< HEAD
     color :black;
     padding : 5px 20px;
     border : 1px solid gray;
-
-  
+ 
 }
 
 ul li a:hover{
@@ -32,7 +33,11 @@ ul li a:hover{
 }
 
 .gambar1{
+<<<<<<< HEAD
     width: 55px;
+=======
+    height: 40px;
+>>>>>>> f19269c2d0373cd7d550fa02897fa4f728ab5366
     margin-top: 20px;
     margin-left: 20px;
 
@@ -44,6 +49,7 @@ h2{
     
 }
 hr{
+<<<<<<< HEAD
     width: 1160px;
     color: rgb(238, 87, 238);
 }
@@ -51,6 +57,14 @@ hr{
    
     width: 200px;
     margin: 50px auto;
+=======
+    width: 1000px;
+    color: rgb(238, 87, 238);
+}
+.login{
+    width: 200px;
+    margin: 100px auto;
+>>>>>>> f19269c2d0373cd7d550fa02897fa4f728ab5366
     margin-left: 180px;
     margin-right: 180px;
 }
@@ -103,8 +117,13 @@ label{
 .ubahpassword{
     background-color: rgb(248, 117, 117);
     border-radius: 10px;
+<<<<<<< HEAD
     width: 600px;
     padding: 10px;
+=======
+    width: 500px;
+    padding: 7px;
+>>>>>>> f19269c2d0373cd7d550fa02897fa4f728ab5366
     border-color:rgb(248, 117, 117);
     border-width: 2px;
     border-style: ridge; 
@@ -114,5 +133,9 @@ label{
     float: unset;
 }
 .browse{
+<<<<<<< HEAD
     font-size: 12px; 
+=======
+    font-size: 10px; 
+>>>>>>> f19269c2d0373cd7d550fa02897fa4f728ab5366
 }
