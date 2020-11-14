@@ -7,29 +7,37 @@
     <link rel="stylesheet" href="profil.css">
 </head>
 <body>
-    <p class="atas">email</p>
+    <div class="navbar">
+        <img class="gambar1" src="gambar/logoSQ.png" alt="logo smart qur'an">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
 
    <div class="login">
         <form>
-            <label><h4>Pengaturan Akun</h4></label>
+            <label><h2>Pengaturan Akun</h2></label>
             <hr>
             <label for="image">Foto Profil</label>
             <img class="foto" src="gambar/orang.jpg" width="90" alt="">
             <input class="browse" type="file" id="up foto" >
             <br><br>
-            <label>Nama Lengkap</label>
-            <input type="text" name="nama" class="formlogin" size="70" required>
+            <label>Nama Lengkap </label>
+            <input type="text" name="nama" class="formlogin" size="85" required>
             <label>Username</label>
-            <input type="text" name="username" class="formlogin" size="70" maxlength="20" required>
+            <input type="text" name="username" class="formlogin" size="85" maxlength="20" required>
             <label>Email Address</label>
-            <input type="email" name="email" class="formlogin" size="70" required>
+            <input type="email" name="email" class="formlogin" size="85" required>
             <label>Jenis Kelamin</label><br><br>
             <input type="radio" name="Jenis Kelamin" >Laki - Laki
                         <input type="radio" name="Jenis Kelamin">Perempuan </td><br><br>
             <label>Nomor Telepon</label>
-            <input type="number" name="nomor telepon" class="formlogin" size="70">
+            <input type="text" name="nomor telepon" class="formlogin" size="85">
             <label>Tanggal Lahir</label>
-            <input type="date" name="Tanggal Lahir" class="formlogin" required>
+            <input type="date" name="Tanggal Lahir" class="formlogin" required >
             <label>Pekerjaan</label>
             <select class="pekerjaan">
                 <option>Petani</option>
@@ -44,17 +52,17 @@
             </select>
             <br><br>
             <label>Alamat</label>
-            <textarea class="alamat" name="textarea" cols="60" rows="4"></textarea>
+            <textarea class="alamat" name="textarea" cols="68" rows="5"></textarea>
             <br><br>
-            <label><h5>Ubah Password</h5></label>
+            <label><h3>Ubah Password</h3></label>
             <hr>
             <p class="ubahpassword">Isi form dibawah ini hanya bila anda ingin mengubah password!</p>
             <label>Password Lama</label>
-            <input type="password" name="password lama" class="formlogin" size="70">
+            <input type="password" name="password lama" class="formlogin" size="85" minlength="6">
             <label>Password Baru</label>
-            <input type="password" name="password baru" class="formlogin" size="70">
+            <input type="password" name="password baru" class="formlogin" size="85" minlength="6">
             <label>Konfirmasi Password Baru</label>
-            <input type="password" name="konfirmasi password" class="formlogin" size="70">
+            <input type="password" name="konfirmasi password" class="formlogin" size="85" minlength="6">
             <input type="submit" value="Simpan Perubahan" class="perubahan">
             
         </form>

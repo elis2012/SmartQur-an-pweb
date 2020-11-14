@@ -7,7 +7,7 @@ body{
 
 ul{
     float: right;
-    margin-top: 20px;
+    margin-top: 0px;
     
 }
 ul li{
@@ -31,13 +31,12 @@ ul li a:hover{
     border: purple;
 }
 .navbar{
-    margin-top: 20px ;
+    margin-top: 15px ;
     border: gray;
 }
 
 .gambar1{
-    margin-top: 100px;
-
+    margin-top: 0px;
     width: 300px;
     margin-left: 40%;
     

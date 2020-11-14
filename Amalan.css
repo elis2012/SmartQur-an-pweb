@@ -4,14 +4,15 @@ body{
 
 
 .gambar1{
-    height: 40px;
-    margin-top: 20px;
+    width: 55PX;
+    margin-top: 10px;
     margin-left: 20px;
+    size: ;
 
 }
 ul{
     float: right;
-    margin-top: 20px;
+    margin-top: 15px;
     
 }
 ul li{
@@ -22,9 +23,10 @@ ul li{
 ul li a{
     text display: None;
     text-decoration: none;
-    color :gray;
+    color :black;
     padding : 5px 20px;
     border : 1px solid gray;
+    
   
 }
 
@@ -35,7 +37,7 @@ ul li a:hover{
 }
 .navbar{
     margin: auto;
-    border: gray;
+    border:black;
 }
 
 .header h1{

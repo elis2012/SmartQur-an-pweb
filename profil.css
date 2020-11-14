@@ -1,18 +1,58 @@
 body{
+    background-image: url(gambar/bck.png);
+}
+ul{
+    float: right;
+    margin-top: 15px;
     
 }
+ul li{
+    margin-left: 25px;
+    left: 100px;
+    display: inline-block;
+}
+ul li a{
+    text display: None;
+    text-decoration: none;
+    color :black;
+    padding : 5px 20px;
+    border : 1px solid gray;
+
+  
+}
+
+ul li a:hover{
+    background-color:  rgb(238, 87, 238);
+    color: white;
+    border: rgb(238, 87, 238);
+}
+.navbar{
+    margin: auto;
+    border: gray;
+}
+
+.gambar1{
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
 h2{
     text-align: left;
     width: 400PX;
+    
 }
 hr{
-    width: 1000px;
-    color: purple;
+    width: 1160px;
+    color: rgb(238, 87, 238);
 }
 .login{
-   width: 200px;
-    margin: 100px auto;
-    
+   
+    width: 200px;
+    margin: 50px auto;
+    margin-left: 180px;
+    margin-right: 180px;
 }
 label{
 
@@ -26,8 +66,8 @@ label{
 }
 .formlogin{
     box-sizing: border-box;
-    padding: 5px 10px;
-    size: 70px;
+    padding: 8px 10px;
+    
     margin-bottom: 20px;
     border-radius: 10px;
     border-color: rgb(238, 87, 238);
@@ -41,20 +81,21 @@ label{
     border-style: ridge;
 }
 .pekerjaan{
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: rgb(238, 87, 238);
     border-style: ridge;
+    padding: 8px 10px;
 }
 .perubahan{
     background: red;
-    color: black;
+    color: white;
     width: 200px;
     border: none;
     border-radius: 10px;
-    padding: 7px;
+    padding: 10px;
     font-size: 15px; 
     border-style: ridge;  
-    border-color: rgb(238, 87, 238);
+    border-color: red;
     border-width: 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -62,9 +103,9 @@ label{
 .ubahpassword{
     background-color: rgb(248, 117, 117);
     border-radius: 10px;
-    width: 500px;
-    padding: 7px;
-    border-color: rgb(238, 87, 238);
+    width: 600px;
+    padding: 10px;
+    border-color:rgb(248, 117, 117);
     border-width: 2px;
     border-style: ridge; 
 }
@@ -73,12 +114,5 @@ label{
     float: unset;
 }
 .browse{
-    font-size: 10px; 
-}
-.atas{
-    background-color: darkmagenta;
-    padding-block: 7px;
-    position: 20px;
-    text-align: right;
-    width: 1107px;
+    font-size: 12px; 
 }
