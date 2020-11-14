@@ -15,7 +15,6 @@ ul li{
 ul li a{
     text display: None;
     text-decoration: none;
-<<<<<<< HEAD
     color :black;
     padding : 5px 20px;
     border : 1px solid gray;
@@ -54,9 +53,7 @@ hr{
     margin-left: 180px;
     margin-right: 180px;
 }
-label{
 
-}
 .keterangan{ 
     width: 400px;
     font-family: monospace;

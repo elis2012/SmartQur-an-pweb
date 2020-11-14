@@ -1,0 +1,89 @@
+body{
+    background-image: url(gambar/bck.png);
+    background-size: 95%;
+}
+
+ul{
+    float: right;
+    margin-top: 20px;
+    
+  }
+  ul li{
+    margin-left: 25px;
+    left: 100px;
+    display: inline-block;
+  }
+  ul li a{
+    text display: None;
+    text-decoration: none;
+    color :gray;
+    padding : 5px 20px;
+    border : 1px solid gray;
+  
+  }
+  
+  ul li a:hover{
+    background-color:  rgb(238, 87, 238);
+    color: white;
+    border: rgb(238, 87, 238);
+  }
+  .navbar{
+    margin: auto;
+    border: gray;
+    padding-bottom: 20px;
+  }
+  
+  .gambar1{
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  
+  }
+h2{
+    margin-left: 30%;
+    width: 600px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 50px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rosybrown;
+    background-color: rgb(230, 23, 230);
+}
+.surat{
+    padding: 10px;
+    color: gray;
+    font-style: oblique;
+    background-color: purple;
+    width: 90px;
+    border-radius: 50px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rosybrown;
+
+}
+.sambung{
+    width: 70%;
+    margin-left: 450px; 
+    font-size: 20px; 
+    padding-top: 10px;
+     
+}
+.ayat{
+  padding-bottom: 10px;
+  
+}
+
+.selesai{
+    background: darkorchid;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;  
+    margin-left: 0%; 
+}
