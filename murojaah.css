@@ -1,17 +1,64 @@
 body{
-    background-image: url(gambar/muro.png);
+    background-image: url(gambar/cover2.png);
+    background-size: 100%;
 }
 
 .kotak{
     background-color: white;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 40px;
-    color: orange;
+    padding-top: 1px;
     font-size: 30px;
-    height: 546px;
-    width: 992px;
-    margin-left: 15%;
-    margin-top: 5%;
+    height: 600px;
+    width: 1200px;
+    margin-left: 10%;
+    margin-top: 1%;
     box-shadow: 5px 5px 5px 5px rgb(133, 133, 133);
 }
+.surat{
+    font-size: 15px;
+}
+ul{
+    float: right;
+    margin-top: 20px;
+    
+  }
+  ul li{
+    margin-left: 25px;
+    left: 100px;
+    display: inline-block;
+  }
+  ul li a{
+    text display: None;
+    text-decoration: none;
+    color :gray;
+    padding : 5px 20px;
+    border : 1px solid gray;
+  
+  }
+  
+  ul li a:hover{
+    background-color:  rgb(238, 87, 238);
+    color: white;
+    border: rgb(238, 87, 238);
+  }
+  .navbar{
+    margin: auto;
+    border: gray;
+    padding-bottom: 20px;
+  }
+  
+  .gambar1{
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  
+  }
+  .awal{
+      font-size: 33px;
+      font-family: fantasy;
+  }
+  .bacaan{
+      font-family: fantasy;
+      
+  }
