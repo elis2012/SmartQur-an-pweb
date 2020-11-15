@@ -30,9 +30,9 @@ ul{
   ul li a{
     text display: None;
     text-decoration: none;
-    color :gray;
+    color : lightgray;
     padding : 5px 20px;
-    border : 1px solid gray;
+    border : 1px solid lightgray ;
   
   }
   
@@ -43,7 +43,7 @@ ul{
   }
   .navbar{
     margin: auto;
-    border: gray;
+    border: rgb(247, 247, 247);
     padding-bottom: 20px;
   }
   
