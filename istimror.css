@@ -53,21 +53,10 @@ h2{
     border-color: rosybrown;
     background-color: rgb(230, 23, 230);
 }
-.surat{
-    padding: 10px;
-    color: gray;
-    font-style: oblique;
-    background-color: purple;
-    width: 90px;
-    border-radius: 50px;
-    border-style: ridge;
-    border-width: 2px;
-    border-color: rosybrown;
 
-}
 .sambung{
     width: 70%;
-    margin-left: 450px; 
+    margin-left: 500px; 
     font-size: 20px; 
     padding-top: 10px;
      
