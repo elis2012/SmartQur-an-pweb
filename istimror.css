@@ -58,6 +58,7 @@ h2 p{
   font-size: 15px;
   letter-spacing: 2px;
 }
+
 .surat{
     padding: 10px;
     color: gray;
@@ -70,10 +71,10 @@ h2 p{
     border-color: rosybrown;
     float: right;
 
-}
+
 .sambung{
     width: 70%;
-    margin-left: 450px; 
+    margin-left: 500px; 
     font-size: 20px; 
     padding-top: 10px;
      
