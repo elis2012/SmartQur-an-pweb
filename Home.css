@@ -1,12 +1,23 @@
 body{
-    background-image: url(gambar/Home1.png);
-
-    
+    background: url(gambar/homeawal.PNG);
+    background-size: cover; 
 }
+/* .gambar1{
+    width: 70px;
+    margin-top: 20px;
+    margin-right: 100px;
 
+} */
+
+.logo{
+    padding-top: 5px;
+    margin-right: 80px;
+    color: rgb(26, 156, 0);
+}
 ul{
     float: right;
     margin-top: 20px;
+      
     
 }
 ul li{
@@ -16,9 +27,10 @@ ul li{
 ul li a{
     text display: None;
     text-decoration: none;
-    color : white;
+    color : rgb(26, 156, 0);
     padding : 5px 20px;
     border : 1px solid transparent;
+    
    
 }
 
@@ -39,7 +51,7 @@ ul li a:hover{
 }
 
 .Title h1{
-    color: white;
+    color: rgb(26, 156, 0);
     font-size: 100px;
 }
 
@@ -47,7 +59,7 @@ ul li a:hover{
  
 
 .paragraf{
-    color: white;
+    color: rgb(26, 156, 0);
     font-size: 20px;
     position: absolute;
     bottom: 20%;
@@ -66,9 +78,9 @@ ul li a:hover{
 .tbl{
     text-decoration: none;
     color: white;
-    border: 1px solid orange;
+    border: 1px solid rgb(26, 156, 0);
     padding: 5px 20px;
-    background-color: orange;
+    background-color: rgb(26, 156, 0);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
@@ -78,10 +90,12 @@ ul li a:hover{
     top: 4%;
     font-size: 20px;
     left: 85%;
+    color: rgb(26, 156, 0);
 }
 .login :hover{
-    background-color:white;
-    color: black;
+    background-color:rgb(26, 156, 0);
+    color: rgb(255, 255, 255);
+    border: rgb(26, 156, 0);
   
 }
 .tbl1{
@@ -101,17 +115,70 @@ ul li a:hover{
 }
 
 .sign :hover{
-    background-color: orange;
+    background-color: rgb(26, 156, 0);
     color: white;
-    border: orange;
+    border: rgb(26, 156, 0);
 }
 
 .tbl2{
     text-decoration: none;
-    color: black;
+    color :rgb(26, 156, 0);
     border: 1px solid white;
     padding: 5px 10px;
     background-color: white;
 
 }
 
+@media screen and (max-width: 768px) {
+    .Title h1{
+        color: rgb(26, 156, 0);
+        font-size: 40px;
+        ma
+    }
+
+    .paragraf{
+        margin-bottom: 60px;
+        font-size: 15px;
+    }
+    body{
+        width: 600px;
+        height: 800px;
+    }
+    .navbar ul{
+        width: 0%;
+    }
+    .login{
+        top: 100%;
+    }
+ 
+    .sign{
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Title h1{
+        color: rgb(26, 156, 0);
+        font-size: 40px;
+        ma
+    }
+
+    .paragraf{
+        margin-bottom: 60px;
+        font-size: 15px;
+    }
+    body{
+        width: 600px;
+        height: 800px;
+    }
+    .navbar ul{
+        width: 0%;
+    }
+    .login{
+        top: 100%;
+    }
+ 
+    .sign{
+        bottom: 100%;
+    }
+}

@@ -1,10 +1,10 @@
 body{
-    background-image: url(gambar/cover2.png);
+    background-image: url(gambar/muro2.png);
     background-size: 100%;
 }
 
 .kotak{
-    background-color: white;
+    background-color: rgb(205, 229, 147);
     text-align: center;
     padding-top: 1px;
     font-size: 30px;
@@ -12,7 +12,7 @@ body{
     width: 1200px;
     margin-left: 10%;
     margin-top: 1%;
-    box-shadow: 5px 5px 5px 5px rgb(133, 133, 133);
+    box-shadow: 5px 5px 5px 5px rgb(84, 138, 73);
 }
 .surat{
     font-size: 15px;
@@ -30,16 +30,16 @@ ul{
   ul li a{
     text display: None;
     text-decoration: none;
-    color : lightgray;
+    color : white;
     padding : 5px 20px;
-    border : 1px solid lightgray ;
+    border : 1px solid white;
   
   }
   
   ul li a:hover{
-    background-color:  rgb(238, 87, 238);
-    color: white;
-    border: rgb(238, 87, 238);
+    background-color:  rgb(255, 255, 255);
+    color:rgb(26, 156, 0);
+    border: white;
   }
   .navbar{
     margin: auto;

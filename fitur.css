@@ -1,4 +1,5 @@
 body{
+  background-color: rgb(204, 221, 165);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
 }
@@ -17,20 +18,20 @@ ul li{
 ul li a{
   text display: None;
   text-decoration: none;
-  color :gray;
+  color :rgb(84, 138, 73);
   padding : 5px 20px;
-  border : 1px solid gray;
+  border : 1px solid rgb(84, 138, 73);
 
 }
 
 ul li a:hover{
-  background-color:  rgb(238, 87, 238);
+  background-color: rgb(84, 138, 73);
   color: white;
-  border: rgb(238, 87, 238);
+  border: rgb(84, 138, 73);
 }
 .navbar{
   margin: auto;
-  border: gray;
+  border: rgb(84, 138, 73);
 }
 
 .gambar1{
@@ -42,7 +43,7 @@ ul li a:hover{
 .header {
     padding-top: 30px;
     text-align: center;
-    color: orange;
+    color: rgb(84, 138, 73);
 }
 
 .gambar {
@@ -58,10 +59,10 @@ ul li a:hover{
   
 h2 a{
       text-decoration: none;
-      color: purple;
+      color: rgb(84, 138, 73);
   }
  .gambar:hover {
-    background-color:plum;
+    background-color:rgb(191, 219, 127);
     padding: 10px;
     
     
@@ -77,7 +78,7 @@ h2 a{
 .desk {
     padding: 15px;
     text-align: center;
-    color: purple;
+    color:rgb(84, 138, 73);
   }
 
 

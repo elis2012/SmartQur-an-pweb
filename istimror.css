@@ -1,6 +1,6 @@
 body{
-    background-image: url(gambar/bck.png);
-    background-size: 95%;
+    background-image: url(gambar/homeawal.PNG);
+    background-size: cover;
 }
 
 ul{
@@ -16,20 +16,20 @@ ul{
   ul li a{
     text display: None;
     text-decoration: none;
-    color :gray;
+    color : rgb(84, 138, 73);
     padding : 5px 20px;
-    border : 1px solid gray;
+    border : 1px solid  rgb(84, 138, 73);
   
   }
   
   ul li a:hover{
-    background-color:  rgb(238, 87, 238);
+    background-color: rgb(84, 138, 73);
     color: white;
-    border: rgb(238, 87, 238);
+    border: rgb(84, 138, 73);
   }
   .navbar{
     margin: auto;
-    border: gray;
+    border:rgb(84, 138, 73);
     padding-bottom: 20px;
   }
   
@@ -44,15 +44,33 @@ h2{
     margin-left: 30%;
     width: 600px;
     text-align: center;
-    color: white;
+    color:  rgb(84, 138, 73);
     padding: 8px;
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 4px;
+    border-radius: 50px;
+    /* border-style: ridge; */
+    border-width: 2px;
+    /* border-color: rosybrown; */
+    /* background-color: rgb(230, 23, 230); */
+}
+h2 p{
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.surat{
+    padding: 10px;
+    color: gray;
+    font-style: oblique;
+    background-color:  rgb(183, 224, 87);
+    width: 90px;
     border-radius: 50px;
     border-style: ridge;
     border-width: 2px;
     border-color: rosybrown;
-    background-color: rgb(230, 23, 230);
-}
+    float: right;
+
 
 .sambung{
     width: 70%;
@@ -69,12 +87,15 @@ h2{
 }
 
 .selesai{
-    background: darkorchid;
+    background:  rgb(84, 138, 73);
     color: white;
     width: 150px;
     border: none;
     border-radius: 20px;
     padding: 10px;
     font-size: 16px;  
-    margin-left: 0%; 
+    /* margin-left: 0%;  */
+    float: right;
+    margin-bottom: 90px;
+    margin-right: 150px ;
 }
