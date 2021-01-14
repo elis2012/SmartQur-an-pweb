@@ -1,6 +1,6 @@
 body{
-    background-image: url(gambar/ayat.jpg);
-    background-size: 1400px; 
+    background-image: url(gambar/homeawal.PNG);
+    background-size: cover; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
@@ -19,20 +19,20 @@ ul li{
 ul li a{
     text display: None;
     text-decoration: none;
-    color :black;
+    color :rgb(84, 138, 73);
     padding : 5px 20px;
-    border : 1px solid black;
+    border : 1px solid rgb(84, 138, 73);
   
 }
 
 ul li a:hover{
-    background-color: purple;
+    background-color: rgb(84, 138, 73);
     color: white;
-    border: purple;
+    border: rgb(84, 138, 73);
 }
 .navbar{
     margin-top: 15px ;
-    border: gray;
+    border:rgb(84, 138, 73);
 }
 
 .gambar1{
@@ -72,8 +72,8 @@ ul li a:hover{
 
 .button:hover{
     color: white;
-    border: rgb(212, 52, 212);
-    background-color: rgb(212, 52, 212);
+    border: rgb(84, 138, 73));
+    background-color: rgb(84, 138, 73);
 }
 
 .surat{
@@ -92,11 +92,11 @@ ul li a:hover{
 }
 .tabelsurat tr td a:hover{
     color: white;
-    background-color:rgb(212, 52, 212) ;
-    border: orange;
+    background-color:rgb(84, 138, 73) ;
+    border: rgb(84, 138, 73);
 }
 .tabel{
-    background-color: white;
+    /* background-color: white; */
     border: 10px;
     padding: 50px;
     width: 100%;

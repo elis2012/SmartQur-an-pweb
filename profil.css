@@ -1,6 +1,7 @@
 
 body{
-    background-image: url(gambar/bck.png);
+    /* background-image: url(gambar/bck.png); */
+    background-color: rgb(192, 219, 128);
 }
 ul{
     float: right;
@@ -15,20 +16,20 @@ ul li{
 ul li a{
     text display: None;
     text-decoration: none;
-    color :black;
+    color :rgb(84, 138, 73);
     padding : 5px 20px;
-    border : 1px solid gray;
+    border : 1px solid rgb(84, 138, 73);
  
 }
 
 ul li a:hover{
-    background-color:  rgb(238, 87, 238);
+    background-color:  rgb(84, 138, 73);
     color: white;
-    border: rgb(238, 87, 238);
+    border:rgb(84, 138, 73));
 }
 .navbar{
     margin: auto;
-    border: gray;
+    border: rgb(84, 138, 73);
 }
 
 .gambar1{
@@ -40,6 +41,7 @@ ul li a:hover{
 h2{
     text-align: left;
     width: 400PX;
+    color: rgb(84, 138, 73);
     
 }
 hr{
@@ -58,8 +60,7 @@ hr{
     width: 400px;
     font-family: monospace;
     font-size: 13px;
-    color: rgb(89, 85, 85);
-    ;
+    color: rgb(84, 138, 73);
 }
 .formlogin{
     box-sizing: border-box;
@@ -67,32 +68,32 @@ hr{
     
     margin-bottom: 20px;
     border-radius: 10px;
-    border-color: rgb(238, 87, 238);
+    border-color: rgb(84, 138, 73);
     border-style: ridge;
     background: white;
 
 }
 .alamat{
     border-radius: 10px;
-    border-color: rgb(238, 87, 238);
+    border-color: rgb(84, 138, 73);
     border-style: ridge;
 }
 .pekerjaan{
     border-radius: 10px;
-    border-color: rgb(238, 87, 238);
+    border-color: rgb(84, 138, 73);
     border-style: ridge;
     padding: 8px 10px;
 }
 .perubahan{
-    background: red;
+    background: rgb(84, 138, 73);
     color: white;
     width: 200px;
-    border: none;
+    border: rgb(84, 138, 73);
     border-radius: 10px;
     padding: 10px;
     font-size: 15px; 
     border-style: ridge;  
-    border-color: red;
+    border-color: rgb(84, 138, 73);
     border-width: 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
