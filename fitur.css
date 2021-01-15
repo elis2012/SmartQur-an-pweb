@@ -81,4 +81,61 @@ h2 a{
     color:rgb(84, 138, 73);
   }
 
+  @media screen and (max-width: 768px) {
+    .Title h1{
+        color: rgb(26, 156, 0);
+        font-size: 40px;
+    }
 
+    .paragraf{
+        margin-bottom: 60px;
+        font-size: 15px;
+    }
+    body{
+        width: 600px;
+        height: 800px;
+    }
+    .navbar ul{
+        /* width: 0%; */
+        display: none;
+    }
+    .login{
+        top: 100%;
+    }
+ 
+    .sign{
+        top: 100%;
+    }
+    .header h1{
+      font-size: 30px;
+      padding-right:0px;
+      padding-top: 0;
+
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Title h1{
+        color: rgb(26, 156, 0);
+        font-size: 30px;
+    }
+
+    .paragraf{
+        margin-bottom: 60px;
+        font-size: 10px;
+    }
+    body{
+        width: 600px;
+        height: 800px;
+    }
+    .navbar ul{
+        width: 0%;
+    }
+    .login{
+        top: 100%;
+    }
+ 
+    .sign{
+        bottom: 100%;
+    }
+}

@@ -60,3 +60,33 @@ ul li a:hover{
     margin-left: 100px;
     margin-right: 100px;
 }
+@media screen and (max-width: 768px) {
+    .Title h1{
+        color: rgb(26, 156, 0);
+        font-size: 40px;
+    }
+
+    .paragraf{
+        margin-bottom: 60px;
+        font-size: 15px;
+    }
+
+    .navbar ul{
+        /* width: 0%; */
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .navbar ul{
+        width: 0%;
+    }
+    .login{
+        top: 100%;
+    }
+ 
+    .sign{
+        bottom: 100%;
+    }
+}

@@ -25,7 +25,6 @@ ul li{
     display: inline-block;
 }
 ul li a{
-    text display: None;
     text-decoration: none;
     color : rgb(26, 156, 0);
     padding : 5px 20px;
@@ -133,7 +132,6 @@ ul li a:hover{
     .Title h1{
         color: rgb(26, 156, 0);
         font-size: 40px;
-        ma
     }
 
     .paragraf{
@@ -145,7 +143,8 @@ ul li a:hover{
         height: 800px;
     }
     .navbar ul{
-        width: 0%;
+        /* width: 0%; */
+        display: none;
     }
     .login{
         top: 100%;
@@ -159,13 +158,12 @@ ul li a:hover{
 @media screen and (max-width: 550px) {
     .Title h1{
         color: rgb(26, 156, 0);
-        font-size: 40px;
-        ma
+        font-size: 30px;
     }
 
     .paragraf{
         margin-bottom: 60px;
-        font-size: 15px;
+        font-size: 10px;
     }
     body{
         width: 600px;
