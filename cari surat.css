@@ -112,3 +112,83 @@ ul li a:hover{
     border-style: ridge;
     border-width: 2px;   
 }
+@media screen and (max-width: 768px) {
+    body{
+        background-size: cover;
+    }
+    .navbar ul{
+        /* width: 0%; */
+        display: none;
+    }
+    
+    .gambar1{
+        margin-top: 0px;
+        width: 200px;
+        margin-left: 40%;
+        
+    }
+    .gambar2{
+
+        width: 125px;
+        margin-left: 45%;
+    }
+    .search{
+        margin-top: 30px;
+        position: relative;
+        padding: 8px 100px;
+        text-align: left;
+        border-radius: 4px;
+        border: 2px solid white ;
+    }
+    
+    .surat{
+        color: black;
+        font-size: 20px;
+        float: right;
+    }
+
+    .tabelsurat tr td a{
+        padding: 5px;
+        border: 1px solid rgb(218, 211, 211);
+        text-align: left;
+        display: grid;
+
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .Title h1{
+        color: rgb(26, 156, 0);
+        font-size: 30px;
+    }
+    body{
+        width: 600px;
+        height: 800px;
+    }
+    .navbar ul{
+        width: 0%;
+    }
+    .gambar1{
+        margin-top: 0px;
+        width: 150px;
+        margin-left: 40%;
+        
+    }
+    .gambar2{
+
+        width: 75px;
+        margin-left: 45%;
+    }
+    .search{
+        margin-top: 30px;
+        position: relative;
+        padding: 8px 100px;
+        text-align: left;
+        border-radius: 4px;
+        border: 2px solid white ;
+    
+    
+    }
+
+}

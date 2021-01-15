@@ -61,5 +61,33 @@ ul li a:hover{
     margin: auto;
     border: gray;
 }
-@media screen and (max-width: 550px)
+
+@media screen and (max-width: 768px) {
+
+
+    .navbar ul{
+        /* width: 0%; */
+        display: none;
+    }
+    body {
+        ba
+    }
+    .ayat{
+        font-size: 30px;
+        text-align: right;
+    }
+
+  @media screen and (max-width: 550px) {
+    .navbar ul{
+        width: 0%;
+    }
+    .login{
+        top: 100%;
+    }
+  
+    .sign{
+        bottom: 100%;
+    }
+  }
+  
     

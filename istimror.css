@@ -14,7 +14,6 @@ ul{
     display: inline-block;
   }
   ul li a{
-    text display: None;
     text-decoration: none;
     color : rgb(84, 138, 73);
     padding : 5px 20px;
@@ -70,7 +69,7 @@ h2 p{
     border-width: 2px;
     border-color: rosybrown;
     float: right;
-
+}
 
 .sambung{
     width: 70%;
@@ -87,7 +86,7 @@ h2 p{
 }
 
 .selesai{
-    background:  rgb(84, 138, 73);
+    background:  rgb(104, 119, 101);
     color: white;
     width: 150px;
     border: none;
@@ -99,3 +98,58 @@ h2 p{
     margin-bottom: 90px;
     margin-right: 150px ;
 }
+@media screen and (max-width: 768px) {
+
+
+  .navbar ul{
+      /* width: 0%; */
+      display: none;
+  }
+  h2 p{
+    text-align: left;
+    color: orange;
+
+  }
+  h2{
+    margin-left: 30%;
+    width: 600px;
+    text-align: left;
+  }
+
+  .ayat {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: left;  
+  }
+  
+  .selesai{
+      background:  rgb(84, 138, 73);
+      color: white;
+      width: 150px;
+      border: none;
+      border-radius: 20px;
+      padding: 10px;
+      font-size: 16px;  
+      /* margin-left: 0%;  */
+      float: right;
+      margin-bottom: 90px;
+      margin-right: 150px ;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 550px) {
+  .navbar ul{
+      width: 0%;
+  }
+  .login{
+      top: 100%;
+  }
+
+  .sign{
+      bottom: 100%;
+  }
+}
+
